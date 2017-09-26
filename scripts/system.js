@@ -6,7 +6,7 @@
 	//var orbits = orbitCalculator();
 	
 	var back = createBack("back", "images/back_v2.gif");
-	var Tanya = createStar(back, "Tanya", 10, centerX, centerY, "images/Tanya_star_m.png");
+	var Tanya = createStar(back, "Tanya", 10, centerX, centerY, "images/sol.png");
 	createLink("Tanya", "https://vk.com/id58990561");
 	
 	var Mercury = createPlanet(back, "Mercury", Tanya, /*orbits[1]*/100, centerX, centerY, "images/mercury_m.png" );
